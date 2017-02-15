@@ -39,9 +39,9 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(342, 31);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 45);
+            this.button1.Size = new System.Drawing.Size(52, 26);
             this.button1.TabIndex = 0;
             this.button1.Text = "Crear";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,9 +50,9 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(189, 140);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 75);
+            this.button2.Size = new System.Drawing.Size(68, 31);
             this.button2.TabIndex = 1;
             this.button2.Text = "Jubilación";
             this.button2.UseVisualStyleBackColor = true;
@@ -61,7 +61,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(197, 44);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
@@ -69,7 +69,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(199, 94);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(99, 20);
             this.textBox2.TabIndex = 3;
@@ -105,7 +105,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Formulario trabajador";
             this.ResumeLayout(false);
