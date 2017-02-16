@@ -22,14 +22,15 @@ namespace Trabajador
         private void button1_Click(object sender, EventArgs e)
         {
             string nombre = (textBox1.Text);
-            int edad = int.Parse(textBox2.Text);
+            int edad = ((int)numericUpDown1.Value);
 
-            nuevoTrabajador = new Trabajador();
-            nuevoTrabajador.Nombre = nombre;
-            nuevoTrabajador.Edad = edad;
+                nuevoTrabajador = new Trabajador();
+                nuevoTrabajador.Nombre = nombre;
+                nuevoTrabajador.Edad = edad;
 
-            MessageBox.Show("Trabajador creado.");
-        }
+                MessageBox.Show("Trabajador creado.");
+            
+         }
 
         private void button2_Click(object sender, EventArgs e)
         {
