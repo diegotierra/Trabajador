@@ -25,9 +25,14 @@ namespace Trabajador
         private const int EdadJubilacionDefecto = 67;
 
         /// <summary>
-        /// Nombre y apellidos del trabajador
+        /// Nombre del trabajador
         /// </summary>
         private string nombre;
+
+        /// <summary>
+        /// Apellido del trabajador
+        /// </summary>
+        private string apellido;
 
         /// <summary>
         /// Edad del trabajador
@@ -35,13 +40,23 @@ namespace Trabajador
         private int edad;
 
         /// <summary>
-        /// Obtiene y devuelve el nombre y apellidos del trabajador
+        /// Obtiene y devuelve el nombre del trabajador
         /// </summary>
-        /// <value>El nombre y apellidos</value>
+        /// <value>El nombre</value>
         public string Nombre
         {
             get { return nombre; }
             set { nombre = value; }
+        }
+
+        /// <summary>
+        /// Obtiene y devuelve el apellido del trabajador
+        /// </summary>
+        /// <value>El apellido</value>
+        public string Apellido
+        {
+            get { return apellido; }
+            set { apellido = value; }
         }
 
         /// <summary>
