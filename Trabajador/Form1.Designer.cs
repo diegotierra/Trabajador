@@ -53,7 +53,7 @@
             this.button2.Location = new System.Drawing.Point(189, 140);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 49);
+            this.button2.Size = new System.Drawing.Size(141, 55);
             this.button2.TabIndex = 1;
             this.button2.Text = "Jubilación";
             this.button2.UseVisualStyleBackColor = true;
